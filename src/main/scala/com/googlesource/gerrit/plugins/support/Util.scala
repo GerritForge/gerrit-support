@@ -20,17 +20,25 @@ import java.util.UUID
 
 import org.joda.time.DateTime
 import org.joda.time.format.DateTimeFormat
+
+import scala.util.{Failure, Success, Try}
 import sys.process._
 
 trait Util {
-  def getTimeStamp : String = {
+  def getTimeStamp: String = {
     DateTimeFormat.forPattern("yyyyMMdd-HHmmss").print(new DateTime())
   }
-  def getUUID : String = {
+
+  def getUUID: String = {
     UUID.randomUUID().toString
   }
-  def execute(s: String) : String = {
-    s !!
+
+  def execute(lineToExecute: String): String = {
+    val value = Try(lineToExecute !!) match {
+      case Success(output) => output
+      case Failure(e) => s"<error ${e.getMessage} while executing '$lineToExecute'"
+    }
+    s"--> $lineToExecute\n$value\n"
   }
 
 }

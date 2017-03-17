@@ -24,6 +24,8 @@ import com.google.inject._
 import org.scalatra.{Created, InternalServerError, Ok, ScalatraServlet}
 import org.slf4j.LoggerFactory
 
+import scala.util.{Failure, Success}
+
 @Singleton
 @Export("/*")
 class GerritSupportPlugin @Inject()(val sitePaths: SitePaths)
@@ -31,26 +33,16 @@ class GerritSupportPlugin @Inject()(val sitePaths: SitePaths)
   private val log = LoggerFactory.getLogger(classOf[GerritSupportPlugin])
 
   post("/collect") {
-    val command = SupportCommand.fromJson(request.body)
-    val zipped = new Zipped(sitePaths.data_dir)
-    try {
-      if (command.gerritVersion) {
-        val result = execute(s"java -jar ${sitePaths.bin_dir}/gerrit.war  " +
-          "version")
-        zipped.write(result)
-      }
-      zipped.close
-      val headers = Map(
-        "Location" -> zipped.fname)
+    Executor.run(SupportCommand.fromJson(request.body),sitePaths) match {
+      case Success(zipped) =>
+        val headers = Map(
+          "Location" -> zipped.fname)
 
-      // returns empty string with 201
-      Created("OK\n",headers)
-    } catch {
-      case e: Exception =>
-        zipped.close
-        log.error(s"SupportPlugin can't write collect file '${zipped.fname}' in " +
-          s"folder '${zipped.directory}'", e)
-        InternalServerError(reason=e.getMessage)
+        Created("OK\n", headers)
+      case Failure(e) =>
+
+        log.error(s"SupportPlugin can't write collect file ", e)
+        InternalServerError(reason = e.getMessage)
     }
 
   }

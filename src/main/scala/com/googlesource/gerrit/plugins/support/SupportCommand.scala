@@ -20,7 +20,13 @@ import com.google.gson.Gson
 
 case class SupportCommand
 (
-  var gerritVersion: Boolean
+  gerritVersion: Boolean = false,
+  cpuInfo: Boolean = false,
+  memInfo: Boolean = false,
+  diskSpace: Boolean = false,
+  pluginsList: Boolean = false,
+  libsList: Boolean = false,
+  gerritConfiguration: Boolean = false
 )
 
 object SupportCommand {
