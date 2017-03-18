@@ -1,0 +1,107 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e2b9dcf1_8b1bc4a7",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2017-03-18T22:50:15Z",
+      "side": 1,
+      "message": "According to RFCs, Location must be absolute.",
+      "range": {
+        "startLine": 26,
+        "startChar": 12,
+        "endLine": 26,
+        "endChar": 76
+      },
+      "revId": "6a32dbc188ea77e48b50ea425a2fb7c38684ec49",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2ef8499c_5339ddc4",
+        "filename": "README.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2017-03-18T22:50:15Z",
+      "side": 1,
+      "message": "We should add more info about building this plugin.",
+      "revId": "6a32dbc188ea77e48b50ea425a2fb7c38684ec49",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1aa3019a_722d9a10",
+        "filename": "src/main/scala/com/googlesource/gerrit/plugins/support/GerritSupportPlugin.scala",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2017-03-18T22:50:15Z",
+      "side": 1,
+      "message": "This would never work: Gerrit takes normally control over the /static calls and serves them from the plugin\u0027s /static path.\nShould be changed to /collect.",
+      "range": {
+        "startLine": 28,
+        "startChar": 9,
+        "endLine": 28,
+        "endChar": 11
+      },
+      "revId": "6a32dbc188ea77e48b50ea425a2fb7c38684ec49",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "08987f73_1bffc3ac",
+        "filename": "src/main/scala/com/googlesource/gerrit/plugins/support/GerritSupportPlugin.scala",
+        "patchSetId": 4
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2017-03-18T22:50:15Z",
+      "side": 1,
+      "message": "+ static",
+      "revId": "6a32dbc188ea77e48b50ea425a2fb7c38684ec49",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6844a180_9fb78b1f",
+        "filename": "src/main/scala/com/googlesource/gerrit/plugins/support/GerritSupportPlugin.scala",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2017-03-18T22:50:15Z",
+      "side": 1,
+      "message": "Can we extrat a command pattern?",
+      "range": {
+        "startLine": 37,
+        "startChar": 7,
+        "endLine": 41,
+        "endChar": 7
+      },
+      "revId": "6a32dbc188ea77e48b50ea425a2fb7c38684ec49",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
