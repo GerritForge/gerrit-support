@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "555189df_d8664fd4",
+        "filename": "src/main/scala/com/googlesource/gerrit/plugins/support/GerritSupportPlugin.scala",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2017-03-19T00:31:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7bf86d85_a49ddb89",
+      "range": {
+        "startLine": 29,
+        "startChar": 19,
+        "endLine": 29,
+        "endChar": 25
+      },
+      "revId": "4d05b0d7e1f0a6261038b8dd6379466cb48621b3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "334868a6_bf09b66f",
         "filename": "src/main/scala/com/googlesource/gerrit/plugins/support/GerritSupportPlugin.scala",
         "patchSetId": 2
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "ee96138b_ed107ed0",
+        "filename": "src/main/scala/com/googlesource/gerrit/plugins/support/GerritSupportPlugin.scala",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2017-03-19T00:31:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "334868a6_bf09b66f",
+      "range": {
+        "startLine": 38,
+        "startChar": 8,
+        "endLine": 39,
+        "endChar": 20
+      },
+      "revId": "4d05b0d7e1f0a6261038b8dd6379466cb48621b3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "994e90a3_24d6e09d",
         "filename": "src/main/scala/com/googlesource/gerrit/plugins/support/SupportCommand.scala",
         "patchSetId": 2
@@ -59,6 +107,30 @@
       "writtenOn": "2017-03-18T00:27:39Z",
       "side": 1,
       "message": "Do we really need this wrapping? Why not simply injecting Gson and use it in the class?\nBy using this object method we replace a 1-liner with another 1-liner :-(",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 30,
+        "endChar": 1
+      },
+      "revId": "4d05b0d7e1f0a6261038b8dd6379466cb48621b3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "63ec741a_1a78f4b2",
+        "filename": "src/main/scala/com/googlesource/gerrit/plugins/support/SupportCommand.scala",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2017-03-19T00:31:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "994e90a3_24d6e09d",
       "range": {
         "startLine": 26,
         "startChar": 0,
@@ -94,6 +166,30 @@
     },
     {
       "key": {
+        "uuid": "a60edf12_78e23b20",
+        "filename": "src/main/scala/com/googlesource/gerrit/plugins/support/Util.scala",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2017-03-19T00:31:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4f3c3114_97724083",
+      "range": {
+        "startLine": 25,
+        "startChar": 6,
+        "endLine": 25,
+        "endChar": 10
+      },
+      "revId": "4d05b0d7e1f0a6261038b8dd6379466cb48621b3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6fd394ba_f8a9f693",
         "filename": "src/main/scala/com/googlesource/gerrit/plugins/support/Util.scala",
         "patchSetId": 2
@@ -105,6 +201,30 @@
       "writtenOn": "2017-03-18T00:27:39Z",
       "side": 1,
       "message": "Timing trait?",
+      "range": {
+        "startLine": 26,
+        "startChar": 6,
+        "endLine": 26,
+        "endChar": 18
+      },
+      "revId": "4d05b0d7e1f0a6261038b8dd6379466cb48621b3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9b6a1079_716cfd96",
+        "filename": "src/main/scala/com/googlesource/gerrit/plugins/support/Util.scala",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2017-03-19T00:31:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6fd394ba_f8a9f693",
       "range": {
         "startLine": 26,
         "startChar": 6,
@@ -140,6 +260,30 @@
     },
     {
       "key": {
+        "uuid": "e2d61802_1fe45049",
+        "filename": "src/main/scala/com/googlesource/gerrit/plugins/support/Util.scala",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2017-03-19T00:31:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4e88b12f_e13869c2",
+      "range": {
+        "startLine": 29,
+        "startChar": 6,
+        "endLine": 29,
+        "endChar": 13
+      },
+      "revId": "4d05b0d7e1f0a6261038b8dd6379466cb48621b3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fc04d642_a03b13d2",
         "filename": "src/main/scala/com/googlesource/gerrit/plugins/support/Util.scala",
         "patchSetId": 2
@@ -151,6 +295,30 @@
       "writtenOn": "2017-03-18T00:27:39Z",
       "side": 1,
       "message": "Do we really need this?",
+      "range": {
+        "startLine": 32,
+        "startChar": 6,
+        "endLine": 32,
+        "endChar": 13
+      },
+      "revId": "4d05b0d7e1f0a6261038b8dd6379466cb48621b3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9624acf0_070a551e",
+        "filename": "src/main/scala/com/googlesource/gerrit/plugins/support/Util.scala",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2017-03-19T00:31:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fc04d642_a03b13d2",
       "range": {
         "startLine": 32,
         "startChar": 6,
@@ -186,6 +354,30 @@
     },
     {
       "key": {
+        "uuid": "0e0462fe_4082ae4c",
+        "filename": "src/main/scala/com/googlesource/gerrit/plugins/support/Zipped.scala",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2017-03-19T00:31:03Z",
+      "side": 1,
+      "message": "We just don\u0027t need it at all, Gerrit does it for us with @PluginData.",
+      "parentUuid": "823684b6_2fb5ef43",
+      "range": {
+        "startLine": 26,
+        "startChar": 2,
+        "endLine": 26,
+        "endChar": 5
+      },
+      "revId": "4d05b0d7e1f0a6261038b8dd6379466cb48621b3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "64274eba_bc0b78ef",
         "filename": "src/main/scala/com/googlesource/gerrit/plugins/support/Zipped.scala",
         "patchSetId": 2
@@ -197,6 +389,30 @@
       "writtenOn": "2017-03-18T00:27:39Z",
       "side": 1,
       "message": "It is never a good idea to execute business logic when the instance gets created, unless you do in the init block of a lazy val.",
+      "range": {
+        "startLine": 27,
+        "startChar": 2,
+        "endLine": 28,
+        "endChar": 38
+      },
+      "revId": "4d05b0d7e1f0a6261038b8dd6379466cb48621b3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d76f3d9d_dc1ff4cf",
+        "filename": "src/main/scala/com/googlesource/gerrit/plugins/support/Zipped.scala",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2017-03-19T00:31:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "64274eba_bc0b78ef",
       "range": {
         "startLine": 27,
         "startChar": 2,
@@ -232,6 +448,30 @@
     },
     {
       "key": {
+        "uuid": "977fc0d7_fee4c1aa",
+        "filename": "src/main/scala/com/googlesource/gerrit/plugins/support/Zipped.scala",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2017-03-19T00:31:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "944aa679_9d69283d",
+      "range": {
+        "startLine": 29,
+        "startChar": 2,
+        "endLine": 29,
+        "endChar": 5
+      },
+      "revId": "4d05b0d7e1f0a6261038b8dd6379466cb48621b3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ef08d5a_9f87c1b2",
         "filename": "src/main/scala/com/googlesource/gerrit/plugins/support/Zipped.scala",
         "patchSetId": 2
@@ -243,6 +483,30 @@
       "writtenOn": "2017-03-18T00:27:39Z",
       "side": 1,
       "message": "I would expect this to be part of the write() method, because we ma have multiple entries in the zip file isn\u0027t it?",
+      "range": {
+        "startLine": 32,
+        "startChar": 2,
+        "endLine": 32,
+        "endChar": 51
+      },
+      "revId": "4d05b0d7e1f0a6261038b8dd6379466cb48621b3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "172d1e03_9c83971b",
+        "filename": "src/main/scala/com/googlesource/gerrit/plugins/support/Zipped.scala",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2017-03-19T00:31:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ef08d5a_9f87c1b2",
       "range": {
         "startLine": 32,
         "startChar": 2,
@@ -312,6 +576,30 @@
       "writtenOn": "2017-03-18T00:27:39Z",
       "side": 1,
       "message": "This is good for your own exercise. However, it should be then removed and not added to the project as you are purely testing other people\u0027s code and not this project\u0027s code :-)",
+      "range": {
+        "startLine": 26,
+        "startChar": 6,
+        "endLine": 26,
+        "endChar": 23
+      },
+      "revId": "4d05b0d7e1f0a6261038b8dd6379466cb48621b3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a2d8b97b_1acb75fe",
+        "filename": "src/test/scala/com/googlesource/gerrit/plugins/support/ProvidedToolsTest.scala",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2017-03-19T00:31:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cf7ec531_beab2a44",
       "range": {
         "startLine": 26,
         "startChar": 6,
