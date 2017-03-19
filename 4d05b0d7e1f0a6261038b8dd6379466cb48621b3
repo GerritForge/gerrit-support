@@ -565,6 +565,30 @@
     },
     {
       "key": {
+        "uuid": "6e8941a3_46ab4022",
+        "filename": "src/test/scala/com/googlesource/gerrit/plugins/support/GerritSupportPluginTest.scala",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1009089
+      },
+      "writtenOn": "2017-03-19T07:51:57Z",
+      "side": 1,
+      "message": "ScalatraTest after injection is no more working (!) :( \nNeed to think some other ways for unittesting instead of scalatra test.",
+      "parentUuid": "c0edc671_964e1017",
+      "range": {
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 11
+      },
+      "revId": "4d05b0d7e1f0a6261038b8dd6379466cb48621b3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "cf7ec531_beab2a44",
         "filename": "src/test/scala/com/googlesource/gerrit/plugins/support/ProvidedToolsTest.scala",
         "patchSetId": 2
