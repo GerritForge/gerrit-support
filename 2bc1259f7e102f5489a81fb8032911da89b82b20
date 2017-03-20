@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6b2c0e63_0215d0a8",
+        "filename": "src/main/scala/com/googlesource/gerrit/plugins/support/GerritSupportServlet.scala",
+        "patchSetId": 9
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2017-03-20T08:03:58Z",
+      "side": 1,
+      "message": "is this used anywhere?",
+      "range": {
+        "startLine": 28,
+        "startChar": 14,
+        "endLine": 28,
+        "endChar": 17
+      },
+      "revId": "2bc1259f7e102f5489a81fb8032911da89b82b20",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f3c6104_5b828f5c",
+        "filename": "src/main/scala/com/googlesource/gerrit/plugins/support/ProcessRequest.scala",
+        "patchSetId": 9
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2017-03-20T08:03:58Z",
+      "side": 1,
+      "message": "functions are verbs, classes are nouns \u003d\u003e RequestProcessor",
+      "range": {
+        "startLine": 24,
+        "startChar": 6,
+        "endLine": 24,
+        "endChar": 20
+      },
+      "revId": "2bc1259f7e102f5489a81fb8032911da89b82b20",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "01e093fb_e5da98c4",
+        "filename": "src/main/scala/com/googlesource/gerrit/plugins/support/ProcessRequest.scala",
+        "patchSetId": 9
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2017-03-20T08:03:58Z",
+      "side": 1,
+      "message": "That\u0027s the definition of a Try isn\u0027t it?",
+      "range": {
+        "startLine": 31,
+        "startChar": 36,
+        "endLine": 31,
+        "endChar": 61
+      },
+      "revId": "2bc1259f7e102f5489a81fb8032911da89b82b20",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
